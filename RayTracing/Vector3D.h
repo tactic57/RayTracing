@@ -9,7 +9,7 @@ using namespace std;
 
 class Vector3D
 {
-	// TEST SI GIT MARCHE
+
 private:
 
     	float x, y, z;
@@ -18,7 +18,7 @@ public:
 	
 	Vector3D ();
 	Vector3D (float X, float Y, float Z);
-  ~Vector3D();
+    ~Vector3D();
 
 	Vector3D operator + (Vector3D Vector);
 	Vector3D operator - (Vector3D Vector);
