@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	// ================= TEST COULEUR =======================
+	// ================= TEST COULEUR =======================!
 	Couleur c1(64, 57, 23);
 	Couleur c2(50, 50, 240);
 
