@@ -34,18 +34,19 @@ int main()
 
 	//===================TEST IMGBMP========================
 
-	int a = 200;
-	int b = 200;
-	int c = 200;
-	int d = 200;
+	int a = 1600;
+	int b = 1600;
+	int c = 1600;
+	int d = 1600;
 
 	ImageBmp img(a, b, c, d);
 
 	for (int i = 0; i < a; i++) {
 		for (int j = 0; j < b; j++) {
-			img.Dessine(i, j, 0);
+			img.Dessine(i/7, j/7, i);
 		}
 	}
+	
 	cout << "image dessinee" << endl;
 
 	// ==================TEST VECTEUR=======================
