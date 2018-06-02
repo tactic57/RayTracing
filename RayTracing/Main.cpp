@@ -34,6 +34,19 @@ int main()
 
 	//===================TEST IMGBMP========================
 
+	int a = 200;
+	int b = 200;
+	int c = 200;
+	int d = 200;
+
+	ImageBmp img(a, b, c, d);
+
+	for (int i = 0; i < a; i++) {
+		for (int j = 0; j < b; j++) {
+			img.Dessine(i, j, 0);
+		}
+	}
+	cout << "image dessinee" << endl;
 
 	// ==================TEST VECTEUR=======================
 	Vector3D v1(1, 2, 3);
