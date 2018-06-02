@@ -15,15 +15,15 @@ class imageBmp
 	RGBTRIPLE image;
 	DWORD write = 0;
 
-	public:
+public:
 
-		imageBmp(double W, double H, int res_M, int res_N);
-		~imageBmp();
+	imageBmp(double W, double H, int res_M, int res_N);
+	~imageBmp();
 
-		void Dessine(int Blue, int Green, int Red);
+	void Dessine(int Blue, int Green, int Red);
 
-		double getWidth();
-		double getHeight();
-		int getM();
-		int getN();
+	double getWidth();
+	double getHeight();
+	int getM();
+	int getN();
 };

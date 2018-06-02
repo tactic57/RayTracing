@@ -1,6 +1,6 @@
 #include "imageBmp.h"
 
-imageBmp::imageBmp(double W, double H,int M, int N)
+imageBmp::imageBmp(double W, double H, int M, int N)
 {
 	this->res_M = M;
 	this->res_N = N;

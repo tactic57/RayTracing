@@ -8,13 +8,32 @@ using namespace std;
 
 int main()
 {
-	// =============== TEST COULEUR =======================
-	Couleur c1(24, 27, 23);
-	Couleur c2(50, 50, 50);
+	// ================= TEST COULEUR =======================
+	Couleur c1(64, 57, 23);
+	Couleur c2(50, 50, 240);
+
+	cout << "c1 " << c1.toString() << endl;
+	cout << "c2 " << c2.toString() << endl << endl;
 
 	Couleur c3 = c1 + c2;
 
-	cout << "c3 : " << c3.getBlue() << " " << c3.getGreen() << " " << c3.getRed() << endl;
+	cout << "c3 = c1 + c2" << c3.toString() << endl << endl;
+
+	Couleur c4 = c1 - c2;
+
+	cout << "c4 = c1 - c2" << c4.toString() << endl << endl;
+
+	Couleur c5 = c1 * c2;
+
+	// A quoi sert la multiplication de 2 couleurs du coup ?
+	cout << "c5 = c1 * c2" << c5.toString() << "ca fait un peu beaucoup.. " << endl << endl; 
+
+	Couleur c6 = c1 * 0.5;
+
+	cout << "c6 = c1 * 0.5" << c6.toString() << endl << endl;
+
+	//===================TEST IMGBMP========================
+
 
 	// ==================TEST VECTEUR=======================
 	Vector3D v1(1, 2, 3);

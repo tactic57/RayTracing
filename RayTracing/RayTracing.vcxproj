@@ -116,7 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Couleur.cpp" />
-    <ClCompile Include="imageBmp.cpp" />
+    <ClCompile Include="ImageBmp.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Materiel.cpp" />
     <ClCompile Include="Rayon.cpp" />
@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Couleur.h" />
-    <ClInclude Include="imageBmp.h" />
+    <ClInclude Include="ImageBmp.h" />
     <ClInclude Include="Materiel.h" />
     <ClInclude Include="Rayon.h" />
     <ClInclude Include="Vector3D.h" />
